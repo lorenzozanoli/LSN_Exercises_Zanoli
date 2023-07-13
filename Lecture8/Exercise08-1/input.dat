@@ -1,0 +1,32 @@
+100
+100000
+3
+0
+
+-0.791301
+-0.65448
+0
+1000
+
+1
+1.5
+40
+1
+1
+
+
+  ReadInput >> nblk;      
+  ReadInput >> nstep;     
+  ReadInput >> L;         // step per il Metropolis su x
+  ReadInput >> x0;        
+
+  ReadInput >> mu;        
+  ReadInput >> sgm;         
+  ReadInput >> SA;          // Simulated Annealing
+  ReadInput >> histofill_blk 
+
+  ReadInput >> beta;      // temperatura
+  ReadInput >> db;        // delta beta per ogni passaggio successivo di annealing
+  ReadInput >> step_in_beta; // step per ogni beta
+  ReadInput >> Lmu;       // larghezza iniziale passi mu
+  ReadInput >> Lsgm;      // idem per sigma
