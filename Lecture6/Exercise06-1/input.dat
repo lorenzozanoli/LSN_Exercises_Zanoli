@@ -1,0 +1,19 @@
+3
+50
+1.0
+0.02
+1
+20
+100000
+0
+0
+
+  ReadInput >> temp;
+  ReadInput >> nspin;
+  ReadInput >> J;
+  ReadInput >> h;
+  ReadInput >> metro; (1 metropolis, 0 Gibbs)
+  ReadInput >> nblk;
+  ReadInput >> nstep;
+  ReadInput >> restart; (0 to start again, 1 to use previous);
+  ReadInput >> config (0 to randomly oriented spin, 1 to aligned spin -1);
